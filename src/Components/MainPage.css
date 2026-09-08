@@ -34,8 +34,6 @@
     width: 100%;
     background: url("../assets/images/bg-today-large.svg");
     background-repeat: no-repeat;
-
-
 }
 
 .real-time-info {
@@ -76,7 +74,6 @@
     font-size: 100px;
     font-family: 'partfontTwo', sans-serif;
     font-weight: 500;
-
 }
 
 
@@ -93,7 +90,6 @@
     border-radius: 12px;
     height: 700px;
 }
-
 
 .hourly-forcast-div-head {
     display: flex;
@@ -151,11 +147,9 @@
     background: hsl(243, 27%, 20%);
 }
 
-
 .hourly-fcast-h3 {
     font-weight: 500;
 }
-
 
 .hourly-forcast-div {
     background: #292a45;
@@ -169,7 +163,6 @@
     gap: 14px;
     max-height: 600px;
     overflow-y: auto;
-
 }
 
 .hourly-forcast-div-body::-webkit-scrollbar {
@@ -182,11 +175,9 @@
     justify-content: space-between;
     font-family: 'partFontOne', sans-serif;
     padding: 16px 18px;
-
     background: #30314d;
     border: 1px solid #424361;
     border-radius: 10px;
-
     width: 100%;
     box-sizing: border-box;
 }
@@ -222,7 +213,6 @@
     grid-column: 1 / 7;
     grid-row: 2 / 3;
 }
-
 
 .boxes-for-weather {
     display: flex;
@@ -326,7 +316,6 @@
     from {
         transform: rotate(0deg);
     }
-
     to {
         transform: rotate(360deg);
     }
@@ -392,402 +381,16 @@
 
 .hourly-forcast-time-date-image {
     padding: 25px;
-
 }
 
 
-/* MOBILE VIEW */
-@media (max-width: 560px) {
-    .main-page {
-        display: flex;
-        flex-direction: column;
-    }
-
-    /* Real time view */
-    .real-time-view {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 300px;
-        width: 350px;
-        margin-left: -30px;
-        background: url("../assets/images/bg-today-small.svg");
-        background-repeat: no-repeat;
-        
-
-    }
-
-    .real-time-info {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        width: 80%;
-        margin-top: -50%;
-        gap: 20px;
-    }
-
-    .place-and-date {
-        display: flex;
-        flex-direction: column;
-        font-family: 'partFontOne', sans-serif;
-        color: white;
-        font-size: 25px;
-    }
-
-    .date {
-        color: hsl(240, 6%, 70%);
-        margin-top: -25px;
-        text-align: center;
-    }
-
-    .temp-and-temp-img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-    }
-
-    .temp-img {
-        width: 35%;
-    }
-
-    .temp {
-        color: white;
-        font-size: 70px;
-        font-family: 'partfontTwo', sans-serif;
-        font-weight: 500;
-        margin: 0;
-    }
-
-
-    /* Hourly Forcast */
-    .hourly-forcast-div {
-        display: flex;
-        flex-direction: column;
-        order: 2;
-        color: white;
-        background-color: hsl(243, 23%, 30%);
-        margin-left: -40px;
-        padding: 10px 40px;
-        border-radius: 12px;
-        height: auto;
-        width: 320px;
-    }
-
-
-    .hourly-forcast-div-head {
-        display: flex;
-        justify-content: space-between;
-        font-family: 'partFontOne', sans-serif;
-        margin-top: -10px;
-    }
-
-    .weeks-dropdown {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: 'partFontOne', sans-serif;
-        background: #40415f;
-        color: #ffff;
-        border-radius: 4px;
-        border: none;
-        gap: 10px;
-        padding: 16px 23px;
-        height: 20px;
-        width: 120px;
-        margin-top: 18px;
-        font-size: 16px;
-        font-weight: 400;
-        position: relative;
-        z-index: 100;
-    }
-
-    .weeks-dropdown:hover {
-        cursor: pointer;
-    }
-
-    .days-of-the-week {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        list-style: none;
-        margin-top: 60px;
-        margin-left: 90px;
-        gap: 10px;
-        background: #080214;
-        padding: 10px 10px;
-        border-radius: 8px;
-        width: 180px;
-        z-index: 300;
-    }
-
-    .days-of-the-week li {
-        padding: 10px;
-        border-radius: 10px;
-        cursor: pointer;
-    }
-
-    .days-of-the-week li:hover {
-        background: hsl(243, 27%, 20%);
-    }
-
-
-    .hourly-fcast-h3 {
-        font-weight: 500;
-    }
-
-
-    .hourly-forcast-div {
-        background: #292a45;
-        border-radius: 16px;
-        padding: 22px;
-    }
-
-    .hourly-forcast-div-body {
-        display: flex;
-        flex-direction: column;
-        gap: 14px;
-        max-height: 600px;
-        overflow-y: auto;
-
-    }
-
-    .hourly-forcast-div-body::-webkit-scrollbar {
-        width: 6px;
-    }
-
-    .hourly-forcast-time-date-image {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        font-family: 'partFontOne', sans-serif;
-        padding: 16px 18px;
-
-        background: #30314d;
-        border: 1px solid #424361;
-        border-radius: 10px;
-
-        width: 100%;
-        box-sizing: border-box;
-    }
-
-    .time-and-image {
-        display: flex;
-        align-items: center;
-        gap: 18px;
-    }
-
-    .weather-images {
-        width: 32px;
-        height: 32px;
-        object-fit: contain;
-    }
-
-    .time-frame {
-        color: white;
-        font-size: 16px;
-        margin: 0;
-    }
-
-    .degree-intervals {
-        color: white;
-        font-size: 15px;
-        margin: 0;
-    }
-
-
-    /* Weather Properties */
-
-    .weather-properties{
-        display: flex;
-        justify-content: center;
-    }
-    
-    .boxes-for-weather {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-    }
-
-    .weather-properties-box {
-        background-color: #292a45;
-        height: 120px;
-        padding: 5px 18px;
-        border-radius: 9px;
-        display: flex;
-        flex-direction: column;
-        width: 140px;
-    }
-
-    .prop-writeup {
-        color: grey;
-        font-size: 20px;
-        font-family: 'partFontOne', sans-serif;
-    }
-
-    .prop-fig {
-        font-size: 29px;
-        color: white;
-        font-family: 'myCustomFont', sans-serif;
-        margin-top: -2px;
-        font-weight: 100;
-    }
-
-
-    /* DAILY FORCAST */
-    .daily-forcast-div {
-        display: flex;
-        justify-content: center;
-    }
-
-    .daily-forcast-header {
-        color: #fff;
-        font-family: 'partFontOne', sans-serif;
-        font-weight: 400;
-        font-size: 30px;
-    }
-
-    .daily-forcast-boxes {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .daily-forecast-box {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-        padding: 3px 18px;
-        background: #292a45;
-        width: 77.5px;
-        height: 160px;
-        border-radius: 10px;
-    }
-
-    .daily-fcast-days {
-        font-size: 18px;
-        font-family: 'partFontOne', sans-serif;
-        color: #fff;
-    }
-
-    .daily-fcast-image {
-        width: 50px;
-        margin-top: -10px;
-    }
-
-    .daily-temperatures {
-        display: flex;
-        gap: 25px;
-        font-size: 16px;
-        font-family: 'partFontOne', sans-serif;
-        color: #fff;
-    }
-
-
-    /* LOADING STATE */
-    
-
-    .real-time-info-loading {
-        display: flex;
-        margin-top: 90px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .loading-img-load {
-        width: 80px;
-        animation-name: spin;
-        animation-duration: 2s;
-        animation-timing-function: ease-in-out;
-        animation-iteration-count: infinite;
-    }
-
-    @keyframes spin {
-        from {
-            transform: rotate(0deg);
-        }
-
-        to {
-            transform: rotate(360deg);
-        }
-    }
-
-    .loading-p-load {
-        color: grey;
-        font-size: 23px;
-    }
-
-    .real-time-view-loading {
-        background: #40415f;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 10px;
-        width: 100%;
-        padding: 10px 30px;
-        margin-left: -30px;
-    }
-
-    .prop-fig-loading {
-        width: 24px;
-        height: 3px;
-        background: grey;
-    }
-
-    .weeks-dropdown-loading {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: 'partFontOne', sans-serif;
-        background: #40415f;
-        color: #ffff;
-        border-radius: 4px;
-        border: none;
-        gap: 10px;
-        padding: 16px 23px;
-        height: 20px;
-        width: 80px;
-        margin-top: 18px;
-        font-size: 16px;
-        font-weight: 400;
-        position: relative;
-        z-index: 100;
-    }
-
-    .hourly-forcast-dropdown-options {
-        width: 20px;
-        height: 3px;
-        background: #292a45;
-    }
-
-    .hourly-forcast-div-body-loading {
-        display: flex;
-        flex-direction: column;
-        gap: 14px;
-        max-height: 600px;
-        overflow-y: auto;
-    }
-
-    .hourly-forcast-div-body-loading::-webkit-scrollbar {
-        width: 6px;
-    }
-
-    .hourly-forcast-time-date-image {
-        padding: 25px;
-
-    }
-}
-
+/* TABLET VIEW - must come before the 560px block so the phone block can override it */
 @media only screen and (max-width: 850px) {
     .main-page {
         display: flex;
         flex-direction: column;
-        
     }
 
-    /* Real time view */
     .real-time-view {
         display: flex;
         flex-direction: column;
@@ -797,11 +400,9 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
-        height: 200px;
+        height: 300px;
         width: 630px;
         margin-left: -40px;
-        
-
     }
 
     .real-time-info {
@@ -810,7 +411,7 @@
         align-items: center;
         justify-content: space-between;
         width: 80%;
-        margin-top: -30%;
+        margin-top: -25%;
         gap: 5px;
     }
 
@@ -849,8 +450,6 @@
         margin: 0;
     }
 
-
-    /* Hourly Forcast */
     .hourly-forcast-div {
         display: flex;
         flex-direction: column;
@@ -863,7 +462,6 @@
         height: auto;
         width: 100%;
     }
-
 
     .hourly-forcast-div-head {
         display: flex;
@@ -921,11 +519,9 @@
         background: hsl(243, 27%, 20%);
     }
 
-
     .hourly-fcast-h3 {
         font-weight: 500;
     }
-
 
     .hourly-forcast-div {
         background: #292a45;
@@ -939,7 +535,6 @@
         gap: 14px;
         max-height: 600px;
         overflow-y: auto;
-
     }
 
     .hourly-forcast-div-body::-webkit-scrollbar {
@@ -952,11 +547,9 @@
         justify-content: space-between;
         font-family: 'partFontOne', sans-serif;
         padding: 16px 18px;
-
         background: #30314d;
         border: 1px solid #424361;
         border-radius: 10px;
-
         width: 100%;
         box-sizing: border-box;
     }
@@ -985,14 +578,11 @@
         margin: 0;
     }
 
-
-    /* Weather Properties */
-
-    .weather-properties{
+    .weather-properties {
         display: flex;
         justify-content: center;
     }
-    
+
     .boxes-for-weather {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -1023,8 +613,6 @@
         font-weight: 100;
     }
 
-
-    /* DAILY FORCAST */
     .daily-forcast-div {
         display: flex;
         justify-content: center;
@@ -1074,10 +662,6 @@
         color: #fff;
     }
 
-
-    /* LOADING STATE */
-    
-
     .real-time-info-loading {
         display: flex;
         margin-top: 90px;
@@ -1091,16 +675,6 @@
         animation-duration: 2s;
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
-    }
-
-    @keyframes spin {
-        from {
-            transform: rotate(0deg);
-        }
-
-        to {
-            transform: rotate(360deg);
-        }
     }
 
     .loading-p-load {
@@ -1165,6 +739,362 @@
 
     .hourly-forcast-time-date-image {
         padding: 25px;
+    }
+}
 
+
+/* MOBILE VIEW */
+@media (max-width: 560px) {
+    .main-page {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .real-time-view {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+        width: 350px;
+        margin: 0 auto;
+        background: url("../assets/images/bg-today-small.svg");
+        background-repeat: no-repeat;
+    }
+
+    .real-time-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        margin-top: -50%;
+        gap: 20px;
+    }
+
+    .place-and-date {
+        display: flex;
+        flex-direction: column;
+        font-family: 'partFontOne', sans-serif;
+        color: white;
+        font-size: 25px;
+    }
+
+    .date {
+        color: hsl(240, 6%, 70%);
+        margin-top: -25px;
+        text-align: center;
+    }
+
+    .temp-and-temp-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .temp-img {
+        width: 35%;
+    }
+
+    .temp {
+        color: white;
+        font-size: 70px;
+        font-family: 'partfontTwo', sans-serif;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .hourly-forcast-div {
+        display: flex;
+        flex-direction: column;
+        order: 2;
+        color: white;
+        background-color: hsl(243, 23%, 30%);
+        margin-left: -40px;
+        padding: 10px 40px;
+        border-radius: 12px;
+        height: auto;
+        width: 320px;
+    }
+
+    .hourly-forcast-div-head {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'partFontOne', sans-serif;
+        margin-top: -10px;
+    }
+
+    .weeks-dropdown {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'partFontOne', sans-serif;
+        background: #40415f;
+        color: #ffff;
+        border-radius: 4px;
+        border: none;
+        gap: 10px;
+        padding: 16px 23px;
+        height: 20px;
+        width: 120px;
+        margin-top: 18px;
+        font-size: 16px;
+        font-weight: 400;
+        position: relative;
+        z-index: 100;
+    }
+
+    .weeks-dropdown:hover {
+        cursor: pointer;
+    }
+
+    .days-of-the-week {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        margin-top: 60px;
+        margin-left: 90px;
+        gap: 10px;
+        background: #080214;
+        padding: 10px 10px;
+        border-radius: 8px;
+        width: 180px;
+        z-index: 300;
+    }
+
+    .days-of-the-week li {
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .days-of-the-week li:hover {
+        background: hsl(243, 27%, 20%);
+    }
+
+    .hourly-fcast-h3 {
+        font-weight: 500;
+    }
+
+    .hourly-forcast-div {
+        background: #292a45;
+        border-radius: 16px;
+        padding: 22px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .hourly-forcast-div-body {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        max-height: 600px;
+        overflow-y: auto;
+        
+    }
+
+    .hourly-forcast-div-body::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    .hourly-forcast-time-date-image {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'partFontOne', sans-serif;
+        padding: 16px 18px;
+        background: #30314d;
+        border: 1px solid #424361;
+        border-radius: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .time-and-image {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .weather-images {
+        width: 32px;
+        height: 32px;
+        object-fit: contain;
+    }
+
+    .time-frame {
+        color: white;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .degree-intervals {
+        color: white;
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .weather-properties {
+        display: flex;
+        justify-content: center;
+    }
+
+    .boxes-for-weather {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .weather-properties-box {
+        background-color: #292a45;
+        height: 120px;
+        padding: 5px 18px;
+        border-radius: 9px;
+        display: flex;
+        flex-direction: column;
+        width: 140px;
+    }
+
+    .prop-writeup {
+        color: grey;
+        font-size: 20px;
+        font-family: 'partFontOne', sans-serif;
+    }
+
+    .prop-fig {
+        font-size: 29px;
+        color: white;
+        font-family: 'myCustomFont', sans-serif;
+        margin-top: -2px;
+        font-weight: 100;
+    }
+
+    .daily-forcast-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .daily-forcast-header {
+        color: #fff;
+        font-family: 'partFontOne', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+    }
+
+    .daily-forcast-boxes {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .daily-forecast-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 3px 18px;
+        background: #292a45;
+        width: 77.5px;
+        height: 160px;
+        border-radius: 10px;
+    }
+
+    .daily-fcast-days {
+        font-size: 18px;
+        font-family: 'partFontOne', sans-serif;
+        color: #fff;
+    }
+
+    .daily-fcast-image {
+        width: 50px;
+        margin-top: -10px;
+    }
+
+    .daily-temperatures {
+        display: flex;
+        gap: 25px;
+        font-size: 16px;
+        font-family: 'partFontOne', sans-serif;
+        color: #fff;
+    }
+
+    .real-time-info-loading {
+        display: flex;
+        margin-top: 90px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .loading-img-load {
+        width: 80px;
+        animation-name: spin;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+
+    .loading-p-load {
+        color: grey;
+        font-size: 23px;
+    }
+
+    .real-time-view-loading {
+        background: #40415f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        width: 100%;
+        padding: 10px 30px;
+        margin-left: -30px;
+    }
+
+    .prop-fig-loading {
+        width: 24px;
+        height: 3px;
+        background: grey;
+    }
+
+    .weeks-dropdown-loading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'partFontOne', sans-serif;
+        background: #40415f;
+        color: #ffff;
+        border-radius: 4px;
+        border: none;
+        gap: 10px;
+        padding: 16px 23px;
+        height: 20px;
+        width: 80px;
+        margin-top: 18px;
+        font-size: 16px;
+        font-weight: 400;
+        position: relative;
+        z-index: 100;
+    }
+
+    .hourly-forcast-dropdown-options {
+        width: 20px;
+        height: 3px;
+        background: #292a45;
+    }
+
+    .hourly-forcast-div-body-loading {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        max-height: 600px;
+        overflow-y: auto;
+    }
+
+    .hourly-forcast-div-body-loading::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    .hourly-forcast-time-date-image {
+        padding: 25px;
     }
 }
