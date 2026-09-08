@@ -295,7 +295,7 @@
     .head-h1 {
         font-size: 50px;
         text-align: center;
-        width: 80%;
+        width: 90%;
         color: #fff;
         font-family: 'header-font', sans-serif;
     }
@@ -310,7 +310,7 @@
     }
 
     .search-input {
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
         padding: 24px 10px 20px 50px;
         border: none;
@@ -347,7 +347,7 @@
         margin-top: 10px;
         position: absolute;
         z-index: 1000;
-        width: 80%;
+        width: 70%;
     }
 
 
@@ -380,7 +380,7 @@
     }
 
     .search-btn {
-        width: 90%;
+        width: 290px;
         color: hsl(240, 6%, 70%);
         font-family: 'part-font', sans-serif;
         font-size: 28px;
@@ -392,7 +392,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-
+        margin-left: 25px;
     }
 
     .loading {
@@ -406,7 +406,7 @@
         height: auto;
         position: absolute;
         z-index: 1000;
-        width: 325px;
+        width: 65%;
     }
 
     .loading-p {
