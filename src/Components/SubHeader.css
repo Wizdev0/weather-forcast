@@ -143,150 +143,6 @@
     font-weight: 500;
 }
 
-
-@media only screen and (max-width: 600px) {
-    .sub-header {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .head-h1 {
-        font-size: 50px;
-        text-align: center;
-        width: 80%;
-        color: #fff;
-        font-family: 'header-font', sans-serif;
-    }
-
-    .search-bar {
-        margin-top: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-    }
-
-    .search-input {
-        width: 310px;
-        max-width: 85%;
-        padding: 24px 10px 20px 50px;
-        border: none;
-        border-radius: 10px;
-        font-size: 23px;
-        color: #fff;
-        font-family: 'part-font', sans-serif;
-        font-size: 18px;
-        background: url("../assets/images/icon-search.svg");
-        background-repeat: no-repeat;
-        background-position: 12px center;
-        background-size: 25px 25px;
-        background-color: hsl(243, 27%, 20%);
-        position: relative;
-    }
-
-
-    .search-input::placeholder {
-        color: hsl(240, 6%, 70%);
-        font-family: 'part-font', sans-serif;
-        font-size: 23px;
-    }
-
-    .search-input:hover,
-    .search-btn:hover {
-        cursor: pointer;
-    }
-
-    .search-menu {
-        background: #080214;
-        padding: 10px 15px 20px 10px;
-        color: white;
-        border-radius: 12px;
-        margin-top: 10px;
-        position: absolute;
-        z-index: 1000;
-        width: 80%;
-    }
-
-
-    .search-menu li {
-        text-decoration: none;
-        list-style: none;
-        padding: 15px 10px;
-        color: #fff;
-        font-family: 'part-font', sans-serif;
-        font-size: 18px;
-
-    }
-
-    .search-menu li:hover {
-        background: hsl(243, 27%, 20%);
-        border-radius: 10px;
-        cursor: pointer;
-
-    }
-
-    .search-item {
-        padding: 10px;
-    }
-
-    .search-item.active {
-        background: hsl(243, 27%, 20%);
-        border-radius: 10px;
-        color: #fff;
-        
-    }
-
-    .search-btn {
-        width: 370px;
-        color: hsl(240, 6%, 70%);
-        font-family: 'part-font', sans-serif;
-        font-size: 28px;
-        border-radius: 10px;
-        border: none;
-        background-color: hsl(248, 70%, 36%);
-        max-height: 45px;
-        padding: 30px 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    .loading {
-        background: #080214;
-        padding: 4px 20px;
-        color: #ffffff;
-        border-radius: 12px;
-        margin-top: 10px;
-        display: flex;
-        gap: 20px;
-        height: auto;
-        position: absolute;
-        z-index: 1000;
-        width: 325px;
-    }
-
-    .loading-p {
-        text-decoration: none;
-        list-style: none;
-        color: #fff;
-        font-family: 'part-font', sans-serif;
-        font-size: 18px;
-    }
-
-    .warning-para {
-        font-family: 'part-font', sans-serif;
-        color: red;
-        background: #fff;
-        padding: 6px 5px;
-        width: 260px;
-        border-radius: 5px;
-        font-size: 16px;
-        font-weight: 500;
-    }
-}
-
 @media only screen and (max-width: 850px) {
     .sub-header {
         display: flex;
@@ -429,4 +285,149 @@
         font-weight: 500;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .sub-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .head-h1 {
+        font-size: 50px;
+        text-align: center;
+        width: 80%;
+        color: #fff;
+        font-family: 'header-font', sans-serif;
+    }
+
+    .search-bar {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .search-input {
+        width: 90%;
+        margin: 0 auto;
+        padding: 24px 10px 20px 50px;
+        border: none;
+        border-radius: 10px;
+        font-size: 23px;
+        color: #fff;
+        font-family: 'part-font', sans-serif;
+        font-size: 18px;
+        background: url("../assets/images/icon-search.svg");
+        background-repeat: no-repeat;
+        background-position: 12px center;
+        background-size: 25px 25px;
+        background-color: hsl(243, 27%, 20%);
+        position: relative;
+    }
+
+
+    .search-input::placeholder {
+        color: hsl(240, 6%, 70%);
+        font-family: 'part-font', sans-serif;
+        font-size: 23px;
+    }
+
+    .search-input:hover,
+    .search-btn:hover {
+        cursor: pointer;
+    }
+
+    .search-menu {
+        background: #080214;
+        padding: 10px 15px 20px 10px;
+        color: white;
+        border-radius: 12px;
+        margin-top: 10px;
+        position: absolute;
+        z-index: 1000;
+        width: 80%;
+    }
+
+
+    .search-menu li {
+        text-decoration: none;
+        list-style: none;
+        padding: 15px 10px;
+        color: #fff;
+        font-family: 'part-font', sans-serif;
+        font-size: 18px;
+
+    }
+
+    .search-menu li:hover {
+        background: hsl(243, 27%, 20%);
+        border-radius: 10px;
+        cursor: pointer;
+
+    }
+
+    .search-item {
+        padding: 10px;
+    }
+
+    .search-item.active {
+        background: hsl(243, 27%, 20%);
+        border-radius: 10px;
+        color: #fff;
+        
+    }
+
+    .search-btn {
+        width: 90%;
+        color: hsl(240, 6%, 70%);
+        font-family: 'part-font', sans-serif;
+        font-size: 28px;
+        border-radius: 10px;
+        border: none;
+        background-color: hsl(248, 70%, 36%);
+        max-height: 45px;
+        padding: 30px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .loading {
+        background: #080214;
+        padding: 4px 20px;
+        color: #ffffff;
+        border-radius: 12px;
+        margin-top: 10px;
+        display: flex;
+        gap: 20px;
+        height: auto;
+        position: absolute;
+        z-index: 1000;
+        width: 325px;
+    }
+
+    .loading-p {
+        text-decoration: none;
+        list-style: none;
+        color: #fff;
+        font-family: 'part-font', sans-serif;
+        font-size: 18px;
+    }
+
+    .warning-para {
+        font-family: 'part-font', sans-serif;
+        color: red;
+        background: #fff;
+        padding: 6px 5px;
+        width: 260px;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+
 

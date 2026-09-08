@@ -757,7 +757,6 @@
         justify-content: center;
         height: 300px;
         width: 350px;
-        margin: 0 auto;
         background: url("../assets/images/bg-today-small.svg");
         background-repeat: no-repeat;
     }
@@ -855,7 +854,7 @@
         flex-direction: column;
         list-style: none;
         margin-top: 60px;
-        margin-left: 90px;
+        margin-left: 100px;
         gap: 10px;
         background: #080214;
         padding: 10px 10px;
@@ -882,8 +881,7 @@
         background: #292a45;
         border-radius: 16px;
         padding: 22px;
-        width: 90%;
-        margin: 0 auto;
+        width: 300px;
     }
 
     .hourly-forcast-div-body {
@@ -939,12 +937,14 @@
     .weather-properties {
         display: flex;
         justify-content: center;
+        align-items: center;
+        
     }
 
     .boxes-for-weather {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
+        gap: 10px;
     }
 
     .weather-properties-box {
@@ -974,6 +974,7 @@
     .daily-forcast-div {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     .daily-forcast-header {
@@ -986,6 +987,7 @@
     .daily-forcast-boxes {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        gap: 9px;
     }
 
     .daily-forecast-box {

@@ -149,7 +149,7 @@
     }
 
     .page-logo{
-        width: 170px;
+        width: 160px;
         height: auto;
     }
 
@@ -159,8 +159,8 @@
         align-items: center;
         font-family: 'MyCustomFont', sans-serif;
         gap: 5px;
-        padding: 7.5px 5px;
-        width: 110px;
+        padding: 7.5px 10px;
+        width: 90px;
         text-align: center;
         font-size: 16px;
         font-weight: 600;
