@@ -1,0 +1,244 @@
+@font-face {
+    font-family: "MyCustomFont";
+    src: url('../assets/fonts/Bricolage_Grotesque/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf') format('ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'part-font';
+    src: url('../assets/fonts/DM_Sans/static/DMSans-Medium.ttf') format('truetype');
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.unit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'MyCustomFont', sans-serif;
+    gap: 5px;
+    padding: 7.5px 5px;
+    width: 110px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    background: hsl(243, 27%, 20%);
+    border-radius: 4px;
+    border: none;
+    color: hsl(240, 6%, 70%);
+    margin-left: 90px;
+
+}
+
+.unit-btn:hover {
+    cursor: pointer;
+}
+
+.drop-icon {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+
+.dropdown {
+    width: 200px;
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown ul {
+    position: absolute;
+    list-style: none;
+    padding: 0.5px 10px 4px 10px;
+    margin: 5px 0 0;
+    border: none;
+    border-radius: 12px;
+    margin-left: -58px;
+    width: 240px;
+    background: #080214;
+    height: 480px;
+    z-index: 200;
+}
+
+
+.dropdown-header {
+    color: hsl(240, 6%, 70%);
+    font-family: 'part-font', sans-serif;
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-size: 17px;
+    padding: 5px;
+}
+
+.item-list {
+    border-bottom: 1px solid grey;
+    height: 140px;
+}
+
+.item-list:last-child {
+    border-bottom: none;
+}
+
+.dropdown li {
+    padding: 3px;
+    cursor: pointer;
+    margin-top: -6px;
+    color: hsl(240, 6%, 70%);
+    font-family: 'part-font', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown li:hover {
+    background: hsl(243, 27%, 20%);
+}
+
+
+/* MOBILE VIEW */
+@media only screen and (max-width: 600px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .page-logo{
+        width: 170px;
+        height: auto;
+    }
+
+    .unit-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'MyCustomFont', sans-serif;
+        gap: 5px;
+        padding: 7.5px 5px;
+        width: 110px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        background: hsl(243, 27%, 20%);
+        border-radius: 4px;
+        border: none;
+        color: hsl(240, 6%, 70%);
+        margin-left: 90px;
+
+    }
+
+    .unit-btn:hover {
+        cursor: pointer;
+    }
+
+    .drop-icon {
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+    }
+
+
+    .dropdown {
+        width: 200px;
+        position: relative;
+        display: inline-block;
+    }
+
+
+    .dropdown ul {
+        position: absolute;
+        list-style: none;
+        padding: 0.5px 10px 4px 10px;
+        margin: 5px 0 0;
+        border: none;
+        border-radius: 12px;
+        margin-left: -58px;
+        width: 240px;
+        background: #080214;
+        height: 480px;
+        z-index: 200;
+    }
+
+
+    .dropdown-header {
+        color: hsl(240, 6%, 70%);
+        font-family: 'part-font', sans-serif;
+        font-weight: 400;
+        margin-bottom: 5px;
+        font-size: 17px;
+        padding: 5px;
+    }
+
+    .item-list {
+        border-bottom: 1px solid grey;
+        height: 140px;
+    }
+
+    .item-list:last-child {
+        border-bottom: none;
+    }
+
+    .dropdown li {
+        padding: 3px;
+        cursor: pointer;
+        margin-top: -6px;
+        color: hsl(240, 6%, 70%);
+        font-family: 'part-font', sans-serif;
+        font-weight: 400;
+        font-size: 19px;
+        padding: 10px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .dropdown li:hover {
+        background: hsl(243, 27%, 20%);
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .page-logo{
+        width: 200px;
+        height: auto;
+    }
+
+    .unit-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'MyCustomFont', sans-serif;
+        gap: 5px;
+        padding: 7.5px 5px;
+        width: 110px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        background: hsl(243, 27%, 20%);
+        border-radius: 4px;
+        border: none;
+        color: hsl(240, 6%, 70%);
+        
+
+    }
+}

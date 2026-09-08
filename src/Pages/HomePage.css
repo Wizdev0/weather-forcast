@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "MyCustomFont";
+    src: url('../assets/fonts/Bricolage_Grotesque/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf') format('ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'part-font';
+    src: url('../assets/fonts/DM_Sans/static/DMSans-Medium.ttf') format('truetype');
+}
+
+.search-error{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    margin: 0 auto;
+    color: white;
+    margin-top: 4%;
+    font-family: 'part-font', sans-serif;
+    font-size: 20px;
+}
+
+.api-error-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.api-error-img{
+    width: 30px;
+}
+
+.api-error-h2{
+    color: white;
+    font-family: 'MyCustomFont', sans-serif;
+    font-weight: 600;
+}
+
+.api-error-message{
+    color: hsl(240, 15%, 88%);
+    width: 55%;
+    text-align: center;
+    font-family: 'part-font', sans-serif;
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+.retry-btn{
+    background: hsl(243, 27%, 20%);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.retry-btn:hover{
+    cursor: pointer;
+}
+
+.retry-wrd{
+    color: hsl(240, 15%, 88%);
+    font-family: 'part-font', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
