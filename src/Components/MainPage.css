@@ -756,10 +756,11 @@
         align-items: center;
         justify-content: center;
         height: 300px;
-        width: 350px;
+        width: 345px;
         background: url("../assets/images/bg-today-small.svg");
         background-repeat: no-repeat;
-        background-position: -50% center ;
+        background-position: -40% center ;
+        margin-left: -45px;
     }
 
     .real-time-info {
@@ -811,7 +812,7 @@
         order: 2;
         color: white;
         background-color: hsl(243, 23%, 30%);
-        margin-left: -45px;
+        margin-left: -46.6px;
         padding: 10px 40px;
         border-radius: 12px;
         height: auto;
@@ -976,6 +977,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: 5px;
     }
 
     .daily-forcast-header {
