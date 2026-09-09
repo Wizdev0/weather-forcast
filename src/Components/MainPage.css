@@ -759,7 +759,7 @@
         width: 350px;
         background: url("../assets/images/bg-today-small.svg");
         background-repeat: no-repeat;
-        background-position: -1px center ;
+        background-position: -50% center ;
     }
 
     .real-time-info {
@@ -811,7 +811,7 @@
         order: 2;
         color: white;
         background-color: hsl(243, 23%, 30%);
-        margin-left: -40px;
+        margin-left: -45px;
         padding: 10px 40px;
         border-radius: 12px;
         height: auto;
@@ -1027,6 +1027,7 @@
         margin-top: 90px;
         justify-content: center;
         align-items: center;
+        margin-top: -2px;
     }
 
     .loading-img-load {
@@ -1049,8 +1050,10 @@
         align-items: center;
         border-radius: 10px;
         width: 100%;
+        height: auto;
         padding: 10px 30px;
         margin-left: -30px;
+        
     }
 
     .prop-fig-loading {
