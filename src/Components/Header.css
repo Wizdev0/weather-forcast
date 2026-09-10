@@ -132,6 +132,7 @@
     .page-logo{
         width: 200px;
         height: auto;
+        margin-left: -15px;
     }
 
     .unit-btn {
@@ -153,11 +154,12 @@
 }
 
 /* MOBILE VIEW */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 560px) {
     .header {
         display: flex;
         justify-content: space-between;
         align-items: center;
+
     }
 
     .page-logo{

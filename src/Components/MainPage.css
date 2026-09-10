@@ -997,7 +997,7 @@
 
     .hourly-fcast-h3 {
         font-weight: 500;
-        font-size: 23px;
+        font-size: 19px;
         text-align: center;
         margin-top: -10px;
     }
@@ -1036,7 +1036,7 @@
     .boxes-for-weather {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
+        gap: 25px;
     }
 
     .weather-properties-box {
@@ -1060,6 +1060,7 @@
         color: white;
         font-family: 'myCustomFont', sans-serif;
         font-weight: 600;
+        margin-top: -23px;
     }
 
     .daily-forcast-div {
