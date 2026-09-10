@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 @font-face {
     font-family: "MyCustomFont";
     src: url('../assets/fonts/Bricolage_Grotesque/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf') format('ttf');
@@ -13,7 +20,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    margin: 10px 30px;
     align-items: center;
     margin-top: 30px;
 }
@@ -53,22 +60,27 @@
     width: 200px;
     position: relative;
     display: inline-block;
+    
 }
 
 
 .dropdown ul {
     position: absolute;
     list-style: none;
-    padding: 0.5px 10px 4px 10px;
+    padding: 15px 10px 2px 10px;
     margin: 5px 0 0;
     border: none;
     border-radius: 12px;
-    margin-left: -58px;
+    margin-left: -40px;
     width: 240px;
     background: #080214;
     max-height: 70vh;
     overflow-y: auto;
     z-index: 200;
+}
+
+.dropdown ul::-webkit-scrollbar {
+    width: 6px;
 }
 
 
@@ -160,7 +172,7 @@
         font-family: 'MyCustomFont', sans-serif;
         gap: 5px;
         padding: 7.5px 10px;
-        width: 90px;
+        width: 100px;
         text-align: center;
         font-size: 16px;
         font-weight: 600;

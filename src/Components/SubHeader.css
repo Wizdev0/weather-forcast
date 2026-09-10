@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: 'header-font';
     src: url('../assets/fonts/Bricolage_Grotesque/static/BricolageGrotesque-Bold.ttf') format('truetype');
@@ -23,15 +29,13 @@
 }
 
 .search-bar {
-    margin-top: 10px;
+    margin-top: 50px;
     display: flex;
     gap: 20px;
 }
 
-
-
 .search-input {
-    width: 450px;
+    width: 530px;
     padding: 10px 10px 10px 50px;
     border: none;
     border-radius: 6px;
@@ -67,7 +71,7 @@
     margin-top: 10px;
     position: absolute;
     z-index: 1000;
-    width: 490px;
+    width: 530px;
 }
 
 
@@ -99,7 +103,7 @@
 }
 
 .search-btn {
-    width: 120px;
+    width: 140px;
     color: hsl(240, 6%, 70%);
     font-family: 'part-font', sans-serif;
     font-size: 18px;
@@ -121,7 +125,8 @@
     height: auto;
     position: absolute;
     z-index: 1000;
-    width: 475px;
+    width: 530px;
+    padding: 20px;
 }
 
 .loading-p {
@@ -147,6 +152,7 @@
     .sub-header {
         display: flex;
         flex-direction: column;
+        margin-top: 60px;
     }
 
     .head-h1 {
@@ -158,7 +164,7 @@
     }
 
     .search-bar {
-        margin-top: 10px;
+        margin-top: 60px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -167,12 +173,11 @@
     }
 
     .search-input {
-        width: 380px;
-        max-width: 85%;
+        width: 700px;
         padding: 24px 10px 20px 50px;
         border: none;
         border-radius: 10px;
-        font-size: 23px;
+        font-size: 40px;
         color: #fff;
         font-family: 'part-font', sans-serif;
         font-size: 18px;
@@ -204,7 +209,7 @@
         margin-top: 10px;
         position: absolute;
         z-index: 1000;
-        width: 62%;
+        width: 84%;
     }
 
 
@@ -237,7 +242,7 @@
     }
 
     .search-btn {
-        width: 430px;
+        width: 700px;
         color: hsl(240, 6%, 70%);
         font-family: 'part-font', sans-serif;
         font-size: 28px;
@@ -245,7 +250,7 @@
         border: none;
         background-color: hsl(248, 70%, 36%);
         max-height: 45px;
-        padding: 30px 10px;
+        padding: 35px 10px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -254,7 +259,7 @@
 
     .loading {
         background: #080214;
-        padding: 4px 20px;
+        padding: 20px 20px;
         color: #ffffff;
         border-radius: 12px;
         margin-top: 10px;
@@ -263,7 +268,7 @@
         height: auto;
         position: absolute;
         z-index: 1000;
-        width: 60%;
+        width: 84%;
     }
 
     .loading-p {
@@ -295,13 +300,13 @@
     .head-h1 {
         font-size: 50px;
         text-align: center;
-        width: 90%;
+        width: 80%;
         color: #fff;
         font-family: 'header-font', sans-serif;
     }
 
     .search-bar {
-        margin-top: 10px;
+        margin-top: 40px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -311,15 +316,15 @@
     }
 
     .search-input {
-        width: 290px;
+        width: 350px;
         margin: 0 auto;
+        display: flex;
         padding: 24px 10px 20px 50px;
         border: none;
         border-radius: 10px;
         font-size: 23px;
         color: #fff;
         font-family: 'part-font', sans-serif;
-        font-size: 18px;
         background: url("../assets/images/icon-search.svg");
         background-repeat: no-repeat;
         background-position: 12px center;
@@ -348,7 +353,8 @@
         margin-top: 10px;
         position: absolute;
         z-index: 1000;
-        width: 87%;
+        width: 90%;
+        margin-left: 10px;
     }
 
 
@@ -407,7 +413,8 @@
         height: auto;
         position: absolute;
         z-index: 1000;
-        width: 84%;
+        width: 85%;
+        margin-left: 20px;
     }
 
     .loading-p {

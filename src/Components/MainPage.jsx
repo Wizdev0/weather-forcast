@@ -123,18 +123,18 @@ export function MainPage({ weather, location, units, hourlyList, dailyList, isLo
                 </div>
 
                 {/* DAILY FORCAST */}
-                <div className="daily-forcast-div">
+                <div className="daily-forcast-div-loading">
 
-                    <div className="daily-forcast-box-and-header">
+                    <div className="daily-forcast-box-and-header-loading">
 
-                        <h2 className="daily-forcast-header">
+                        <h2 className="daily-forcast-header-loading">
                             Daily Forcast
                         </h2>
 
-                        <div className="daily-forcast-boxes">
+                        <div className="daily-forcast-boxes-loading">
 
                             {Array.from({ length: 7}).map((_, index) => (
-                                <div className="daily-forecast-box" key={index}></div>
+                                <div className="daily-forecast-box-loading" key={index}></div>
                             ))}
 
                         </div>
