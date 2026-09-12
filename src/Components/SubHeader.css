@@ -352,7 +352,7 @@
         margin-top: 10px;
         position: absolute;
         z-index: 1000;
-        width: 73%;
+        width: 75%;
     }
 
 
@@ -411,7 +411,7 @@
         height: auto;
         position: absolute;
         z-index: 1000;
-        width: 73%;
+        width: 75%;
     }
 
     .loading-p {
