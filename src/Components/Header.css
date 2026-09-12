@@ -159,13 +159,13 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 10px;
 
     }
 
     .page-logo{
         width: 160px;
         height: auto;
-        margin-left: -19px;
     }
 
     .unit-btn {
@@ -183,7 +183,6 @@
         border-radius: 4px;
         border: none;
         color: hsl(240, 6%, 70%);
-        margin-left: 75px;
     }
 
     .unit-btn:hover {
