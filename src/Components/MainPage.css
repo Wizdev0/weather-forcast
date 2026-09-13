@@ -448,6 +448,7 @@
             "properties"
             "daily"
             "hourly";
+        gap: 60px;
     }
 
     .real-time-view {
@@ -457,13 +458,13 @@
 
     .hourly-forcast-div {
         min-height: 0;
-        height: 520px;
+        height: 600px;
         display: flex;
     }
 
     .daily-forcast-boxes,
     .daily-forcast-boxes-loading {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-template-columns: repeat(7, minmax(0, 1fr));
     }
 }
 
